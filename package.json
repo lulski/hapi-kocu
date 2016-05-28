@@ -1,0 +1,17 @@
+{
+  "name": "json.package",
+  "version": "1.0.0",
+  "description": "kocu hapi what's going on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "gcloud preview app deploy"
+  },
+  "author": "ichsan.siswoputranto",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0"
+  }
+}
